@@ -1,11 +1,71 @@
-h1 {
+body {
+    background-color: #F2FFFC;
+    font-family:"Crimson Text", serif;
+    font-size: 20px;
+    line-height:1.5;
+}
+ main h1 {
     font-size: 60px;
     background-color: rgb(120,30,60);
     color: #FAFFFA;
     text-align: center ;
-    font-family: "open sans",sans-serif;
+    font-family: "open sans  Cadensed",sans-serif;
+    padding: 20px;
+     margin:0;
+     text-transform: uppercase;
 }
+ main a{
+     color:#851944;
+ }
 h2{
     font-size: 40px;
-    font-family: "open sans",sans-serif;
+    font-family: "open sans Cadensed",sans-serif;
+}
+p{
+    text-align: justify;
+    margin: 30px 0;
+}
+blockquote{
+    background-color: #D3DDDA;
+    padding: 16px;
+    border:10px solid #C2CCCA;
+    width: 250px;
+    margin:0;
+    box-sizing:border-box ;
+
+}
+strong{
+    font-weight: 600;
+}
+em{
+    font-style: italic ;
+}
+aside{
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    padding: 20px;
+    font-family: "open sans Cadensed",sans-serif;
+}
+nav h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+nav a{
+    color: inherit;
+}
+.icones-sociais li {
+    display: inline-block;
+}
+
+footer{
+    background-color: #000;
+    color: #F2FFFC;
+    padding:20px;
+}
+.icones-sociais a{
+    background-image: url(github.png) ;
+    width:40px;
+    height:40px;
+    display:inline-block;
+    text-indent:-1000px;
 }
