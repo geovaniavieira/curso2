@@ -1,8 +1,13 @@
 body {
     background-color: #F2FFFC;
-    font-family:"Crimson Text", serif;
+    font-family: "Crimson Text", serif;
     font-size: 20px;
-    line-height:1.5;
+    line-height: 1.5;
+}
+
+.container{
+    margin: 0 auto;
+    width:940px;
 }
  main h1 {
     font-size: 60px;
@@ -11,8 +16,9 @@ body {
     text-align: center ;
     font-family: "open sans  Cadensed",sans-serif;
     padding: 20px;
-     margin:0;
-     text-transform: uppercase;
+    margin:0;
+    text-transform: uppercase;
+    border-bottom: 10px solid black;
 }
  main a{
      color:#851944;
@@ -20,6 +26,7 @@ body {
 h2{
     font-size: 40px;
     font-family: "open sans Cadensed",sans-serif;
+    clear:both;
 }
 p{
     text-align: justify;
@@ -30,8 +37,9 @@ blockquote{
     padding: 16px;
     border:10px solid #C2CCCA;
     width: 250px;
-    margin:0;
+    margin:12px;
     box-sizing:border-box ;
+
 
 }
 strong{
@@ -43,18 +51,23 @@ em{
 aside{
     background-color: #3C1D3D;
     color: #F2FFFC;
+    text-align: center;
     padding: 20px;
     font-family: "open sans Cadensed",sans-serif;
 }
 nav h1{
-    font-size: 30px;
-    margin-bottom: 25px;
+    font-size:30px;
+    margin-bottom:25px;
 }
 nav a{
     color: inherit;
+    text-transform: lowercase;
 }
 .icones-sociais li {
     display: inline-block;
+    width: 50px;
+    position: relative;
+    margin: auto;
 }
 
 footer{
@@ -63,9 +76,52 @@ footer{
     padding:20px;
 }
 .icones-sociais a{
-    background-image: url(github.png) ;
-    width:40px;
-    height:40px;
-    display:inline-block;
-    text-indent:-1000px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -9999px;
 }
+.github{
+    background-image: url("github.png");
+}
+.twitter{
+    background-image: url("twitter.png");
+}
+.linkedin{
+    background-image: url("linkedin.png");
+}
+.fiat{
+    float: right;
+}
+.petrobras{
+    float: left;
+}
+aside, img {
+    float: right;
+    border-left: 10px solid black;
+    width: 14%;
+    border-bottom: 10px solid black;
+}
+aside{
+
+    clear:right;
+    box-sizing: border-box;
+}
+main{
+    float: left;
+    width: 85.475%;
+}
+footer{
+    clear: both;
+}
+cite{
+    font-style: italic;
+    float: right;
+}
+.img{
+    position: relative;
+    top:50px;
+    right: 50px;
+}
+
+
